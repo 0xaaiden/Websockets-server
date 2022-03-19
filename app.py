@@ -21,7 +21,7 @@ import requests
 
 logged_in_users = dict()
 jwt_secret = os.getenv('JWT_SECRET')
-URL = ""
+URL = "https://photo-app-demo123.herokuapp.com"
 PORT = os.environ.get('PORT') or 8081
 
 
