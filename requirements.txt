@@ -1,5 +1,5 @@
 websockets
 python-dotenv==0.15.0 
-jwt
+PyJWT
 asyncio
 requests
