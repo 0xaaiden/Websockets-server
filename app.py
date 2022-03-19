@@ -21,8 +21,8 @@ import requests
 
 logged_in_users = dict()
 jwt_secret = os.getenv('JWT_SECRET')
-URL = "http://127.0.0.1:5000"
-PORT = os.environ.get('WS_PORT') or 8081
+URL = ""
+PORT = os.environ.get('PORT') or 8081
 
 
 async def respond_to_message(websocket, message):
