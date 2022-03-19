@@ -2,3 +2,4 @@ websockets
 python-dotenv==0.15.0 
 jwt
 asyncio
+requests
