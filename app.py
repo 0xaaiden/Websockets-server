@@ -116,7 +116,7 @@ async def broadcast_messages(websocket, path):
     
 
 async def main():
-    async with websockets.serve(broadcast_messages, "", PORT, ping_interval=None, ping_timeout=None):
+    async with websockets.serve(broadcast_messages, "", PORT):
         await asyncio.Future()  # run forever
 
 if __name__ == "__main__":
